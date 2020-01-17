@@ -1,0 +1,93 @@
+@media screen and (min-width: 701px)  { 
+
+.Content_grid{
+    display: grid;
+    height: 100vh;
+    cursor: pointer;
+    grid-template-areas: 
+    
+    "text" 
+    "img"
+   
+   
+        ;
+        
+} .Content_grid__button{
+    margin-top: 2rem;
+
+}
+
+}
+
+@media screen and (max-width: 700px)  { 
+
+    .Content_grid{
+        display: grid;
+        height: 48vh;
+        cursor: pointer;
+        grid-template-areas: 
+        
+        "text" 
+        "img"
+       
+       
+            ;
+            
+    }
+    .Content_grid__button{
+        margin-top: 1rem;
+
+    }
+    
+}
+.Content_grid__img{
+    grid-area: img ;
+    align-self:end;
+    text-align:center;
+
+}
+.Content_grid__text{
+    grid-area: text ;
+    align-self:center;
+    text-align:center;
+    color: #DCDCDD !important;
+   
+   
+
+}
+.Content_grid__text > h1{
+
+    opacity: 0;
+}
+.Content_grid__text > p{
+
+    opacity: 0;
+}
+.Content_grid__button{
+
+padding: 8px 25px 10px 25px; 
+background: #D22F2F;
+box-shadow: 0px 8px 18px rgba(39, 60, 72, 0.4);
+border-radius: 57px;
+outline: none;
+opacity: 0;
+transition: 0.2s;
+
+}
+
+.Content_grid__logo{
+    width:100px;
+   
+    top: 10px;
+    position: relative;
+    margin-bottom: 1rem;
+    top: 150px;
+  
+}
+
+.Content_grid__button:hover{
+    border-radius: 5px;
+
+   background: #E84A4A;
+box-shadow: 0px 8px 18px rgba(203, 11, 11, 0.6) !important;
+}

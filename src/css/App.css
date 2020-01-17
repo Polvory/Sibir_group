@@ -1,0 +1,36 @@
+.parent_div_grid{
+    display: grid;
+    
+    grid-template-areas: 
+    "header"  
+    "content"
+    
+
+    "footer"
+    ;
+}
+/* .parent_div{
+
+} */
+header{
+    grid-area: header;
+    position: fixed;
+    background-color: red;
+   
+    grid-column: 1 / -1;
+    z-index: 10000;
+}
+content{
+    grid-area: content; 
+    /* margin-top:60px ; */
+    grid-column: 1 / -1;
+    height: 100vh;
+    z-index:1000;
+}
+footer{
+    z-index:1000;
+    grid-area: footer;  
+    grid-column: 1 / -1;
+    background-color: black;
+    height: 140vh;
+}

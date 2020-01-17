@@ -1,0 +1,48 @@
+.laer1_grid{
+   position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 
+   "social content  menubutton"
+   ;
+
+}
+
+.social_grid{
+    grid-area:social ;
+    width: 20vw;
+    height: 100vh;
+    display:grid;
+    align-items: end;
+    
+}
+.content_grid{
+    grid-area:content ;
+    width: 60vw;
+    height: 100vh;
+    display:grid;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    
+   
+   
+
+
+}
+.menubutton_grid{
+    grid-area:menubutton ;
+    width: 20vw;
+    height: 100vh;
+    align-self:end;
+    display:grid;
+    align-items: center;
+
+
+}
+body{
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}

@@ -1,0 +1,64 @@
+
+
+@media screen and (min-width: 701px)  { 
+    
+    .PageStart_parent_grid{
+    
+
+        display: grid;
+        /* grid-template-columns: repeat(auto-fit, minmax(150px, auto)); */
+        height: 100vh;
+        grid-template-areas: 
+        
+        "SGMedic SibirTouristic SibirProKad"
+            ; 
+    
+    }
+
+
+}
+@media screen and (max-width:700px)  { 
+    
+    .PageStart_parent_grid{
+    
+
+        display: grid;
+        /* grid-template-columns: repeat(auto-fit, minmax(150px, auto)); */
+        height: 48vh;
+        grid-template-areas: 
+       "SibirTouristic" 
+        "SGMedic"  
+        "SibirProKad"
+            ; 
+    
+    }
+
+
+}
+
+
+.PageStart_SGMedic{
+
+    background:  linear-gradient(180deg, rgba(27, 28, 32, 0.7) 0%, 
+    rgba(28, 27, 33, 0.76) 50.53%, rgba(28, 27, 33, 0.7) 100%),  
+     url(./images/1.jpg) center center no-repeat;
+    background-size: 250%;
+ 
+
+
+}
+.PageStart_SibirTouristic{
+    background:  linear-gradient(180deg, rgba(27, 28, 32, 0.7) 0%,
+     rgba(28, 27, 33, 0.29) 50.53%, rgba(28, 27, 33, 0.7) 100%), 
+      url(./images/2.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+.PageStart_SibirProKad{
+    background:  linear-gradient(180deg, rgba(27, 28, 32, 0.7) 0%,
+     rgba(28, 27, 33, 0.29) 50.53%, rgba(28, 27, 33, 0.7) 100%), 
+      url(./images/3.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+

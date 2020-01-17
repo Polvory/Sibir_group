@@ -1,0 +1,26 @@
+button {
+    all: unset;
+
+   }
+  .a_menu{
+    display: inline;
+     border-radius: 25px;
+    box-sizing: border-box;
+    margin:8px;
+    color: #fff;
+    cursor: pointer;
+    text-Decoration: none;
+   
+  } 
+  .a_menu:hover{
+   color: #D22F2F !important;
+   text-Decoration: none;
+  } 
+  .a_menu:active{
+    color: #D22F2F !important;
+    text-Decoration: none;
+   } 
+   .a_menu:focus{
+    color: #D22F2F !important;
+    text-Decoration: none;
+   } 
